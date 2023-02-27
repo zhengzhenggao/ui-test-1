@@ -1,0 +1,31 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "importOrder": [
+    "rxjs",
+    "^(@shared|@core|@env|@test-utilities)(/.*|$)",
+    "^(business-logic|@ui)(/.*|$)",
+    "^[./|~/]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderParserPlugins": ["decorators-legacy", "typescript"],
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.tsx",
+      "options": {
+        "parser": "babel-ts"
+      }
+    }
+  ]
+}
