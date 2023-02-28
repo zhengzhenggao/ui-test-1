@@ -206,7 +206,9 @@ export const Input = (props: InputProps): JSX.Element => {
         <Typography variant='body1'>
           Phone number checking feature: ENTER & TAB key will trigger the validation
         </Typography>
+        <Typography variant='body1'>UI Responsive: Layout changes if the window width</Typography>
         <Typography variant='body1'>UI Misc.: Tab indexed</Typography>
+        <Typography variant='body1'>Demo Video: in ./demo/</Typography>
       </Container>
     </>
   );
